@@ -1,0 +1,161 @@
+html, body {
+	width: 100%; height: 100%;
+	margin: 0; padding: 0;
+	background: #FFF;
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	overflow: scroll;
+	overflow-x: hidden; 
+}
+
+a,p,h1,h2,h3,h4,h5,h6,li {
+	/*font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+div	{
+	box-sizing: border-box;
+}
+
+a {
+	color: #242424;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #00F;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin:0; padding:0;
+}
+
+.main-container {
+	z-index: 0;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 800px;
+	margin: 0 auto;
+	background: #FFF;
+	padding-top: 35px;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.centerpiece {
+	position: relative;
+	width: 320px;
+	height: 480px;
+	display: inline-block;
+	background: url('/img/Walking_w_smiley.png') center center no-repeat;
+	background-size: cover;
+}
+
+.nametag {
+	font-weight: normal;
+	font-size: 1.5em;
+	margin: 20px 0 30px;
+}
+
+.project-list li {
+	margin: 2px 0;
+	padding: 0;
+}
+
+.footer {
+	width: 100vw;
+	height: 60px;
+	background: #fff;
+	margin: 0; padding: 0;
+	text-align: center;
+
+	position: absolute;
+	clear: both;
+	left: 0;
+	bottom: 0;
+}
+
+
+.footer ul {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0; padding: 0;
+	z-index: 99;
+}
+
+.footer ul li {
+	display: inline-block;
+	position: relative;
+	padding: 0; margin: 0;
+	width: calc(20% - 5px);
+	line-height: 60px;
+}
+
+
+.active {
+	padding: 3px 5px;
+	border-radius: 2px;
+	border: 1px solid #000;
+}
+
+.contact-container {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	left: 0; top: 0;
+	width: 100%; height: calc(100% - 60px);
+	background: #FFF;
+	overflow: auto;
+}
+
+.email {
+	position: relative;
+	margin-top: 20%;
+	font-weight: 200;
+	font-size: 1.5em;
+}
+
+#email-form {
+}
+
+#email-form label {
+	font-size: .7em;
+	color: #777;
+	margin-right: 150px;
+}
+
+.email-input {
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: .8em;
+	padding: 0 0 0 2px;
+	margin: 2px 5px 0 0;
+}
+
+.builtby {
+	position: absolute;
+	left: 0; bottom: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: .7em;
+	color: #777;
+}

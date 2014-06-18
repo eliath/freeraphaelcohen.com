@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Raphael D. Cohen">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Raphael Cohen</title>
+        <link rel="stylesheet" href="css/screen.css">
+        
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="main" class="main-container center">
+        	<!-- The image -->
+        	<div class="centerpiece"></div>
+        	
+        	<!-- The name -->
+        	<h1 class="nametag">
+        		Raphael Cohen
+        	</h1>
+
+        	<!-- Some projects -->
+            <ul class="project-list">
+        	    <li>
+        	    	<a href="#">American Ikebana</a>
+        	    </li>
+        	    <li>
+        	    	<a href="#">Free</a>
+        	    </li>
+        	    <li>
+        	    	<a href="#">Speaking Directly</a>
+        	    </li>
+        	    <li>
+        	    	<a href="#">Diary</a>
+        	    </li>
+        	</ul>
+
+        	<footer class="footer">
+        		<ul>
+        			<li>
+        				<a href="/CV">CV</a>
+        			</li>
+        			<li>
+        				<a id="contact_button" onclick="controller.toggleContact();">Contact</a>
+        			</li>
+        			<li>
+        				<a href="http://juicysgallery.info/" target="_blank">Juicys Gallery</a>
+        			</li>
+        			<li>
+        				<a href="http://coorslight.bandcamp.com/" target="_blank">Coors Light</a>
+        			</li>
+        			<li>
+        				<a onclick="controller.oops('Ficus Interfaith R&P\nComing Soon!')">Ficus Interfaith R&amp;P</a>
+        			</li>
+        		</ul>
+        	</footer>
+        </div>
+        
+        <div id="contact" class="contact-container center">
+            <a href="mailto:freeraphael8@gmail.com">
+                <h2 class="email">freeraphael8@gmail.com</h2>
+            </a>
+            <form id="email-form">
+                <label for="email">Sign up for email updates:</label><br>
+                <input class="email-input" type="text" name="email" placeholder="email">
+                <input type="submit" value="Submit">
+            </form>
+            <p class="builtby">
+                &#169; 2014  |  Site built by <a href="http://eliasmartinezcohen.com/" target="_blank">Elías Martínez Cohen</a>
+            </p>
+        </div>
+
+        <script>
+            $(function() {
+                controller.init();
+            });
+        </script>
+    </body>
+</html>
