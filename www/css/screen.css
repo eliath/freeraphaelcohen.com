@@ -9,8 +9,9 @@ html {
 }
 
 body {
-	overflow: scroll;
-	overflow-x: hidden; 
+	overflow: auto;
+	opacity: 0;
+	min-width: 800px;
 }
 
 a,p,h1,h2,h3,h4,h5,h6,li {
@@ -73,9 +74,18 @@ ul {
 	margin: 20px 0 30px;
 }
 
+
+.project-list {
+	width: 100%;
+}
+
 .project-list li {
 	margin: 2px 0;
 	padding: 0;
+}
+
+.project-list li a {
+	display: block;
 }
 
 .footer {
@@ -108,6 +118,10 @@ ul {
 	line-height: 60px;
 }
 
+.footer ul li a {
+	display: block;
+}
+
 
 .active {
 	padding: 3px 5px;
@@ -129,16 +143,17 @@ ul {
 	position: relative;
 	margin-top: 20%;
 	font-weight: 200;
-	font-size: 1.5em;
+	font-size: 1.6em;
+	letter-spacing: 2px;
 }
 
 #email-form {
 }
 
 #email-form label {
-	font-size: .7em;
+	font-size: .8em;
 	color: #777;
-	margin-right: 150px;
+	margin: 0 210px 3px 0;
 }
 
 .email-input {
@@ -158,4 +173,13 @@ ul {
 	text-align: center;
 	font-size: .7em;
 	color: #777;
+	font-style: italic;
+}
+
+.builtby a {
+	color: #777;
+}
+
+.builtby a:hover {
+	color: #00F;
 }
