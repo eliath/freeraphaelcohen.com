@@ -65,8 +65,3 @@ html, body {
 	text-align: center;
 	margin-top: 10px;
 }
-
-.caption::selection {
-	color: black;
-	background: none;
-}
