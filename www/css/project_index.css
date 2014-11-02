@@ -1,0 +1,45 @@
+html, body {
+	width: 100%; height: 100%;
+	margin: 0; padding: 0;
+	background: #FFF;
+	box-sizing: border-box;
+	min-width: 700px;
+}
+
+body {
+	position: relative;
+}
+
+a,p,h1,h2,h3,h4,h5,h6,li {
+	/*font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+div	{
+	box-sizing: border-box;
+}
+
+a {
+	color: #242424;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #00F;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.projects-list {
+	margin: 100px 100px;
+}

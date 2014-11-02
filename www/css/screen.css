@@ -3,19 +3,11 @@ html, body {
 	margin: 0; padding: 0;
 	background: #FFF;
 	box-sizing: border-box;
+	min-width: 700px;
 }
 
 body {
 	position: relative;
-	opacity: 0;
-	min-width: 700px;
-	min-height: 600px;
-	overflow: -moz-scrollbars-none;
-	padding-bottom: 720px;
-}
-
-::-webkit-scrollbar { 
-    display: none; 
 }
 
 a,p,h1,h2,h3,h4,h5,h6,li {
@@ -44,145 +36,85 @@ a:visited {
 
 ul {
 	list-style-type: none;
-	margin:0; padding:0;
-}
-
-.main-container {
-	z-index: 0;
-	position: relative;
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
-	background: #FFF;
-	padding-top: 35px;
-}
-
-.center {
-	text-align: center;
-}
-
-
-.centerpiece {
-	position: relative;
-	width: 320px;
-	height: 480px;
-	display: inline-block;
-	background: url('/img/Walking_w_smiley.png') center center no-repeat;
-	background-size: cover;
-}
-
-.nametag {
-	font-weight: normal;
-	font-size: 1.5em;
-	margin: 20px 0 30px;
-}
-
-
-.project-list {
-	width: 100%;
-}
-
-.project-list li {
-	margin: 2px 0;
+	margin: 0;
 	padding: 0;
 }
 
-.project-list li a {
-	display: block;
-}
-
-.footer {
-	width: 100vw;
-	height: 60px;
-	background: #fff;
-	margin: 0; padding: 0;
-	text-align: center;
-
-	position: fixed;
-	left: 0;
-	bottom: 0;
-}
-
-
-.footer ul {
-	position: absolute;
+.block150 {
+	position: relative;
+	clear: both;
 	width: 100%;
-	height: 100%;
-	margin: 0; padding: 0;
-	z-index: 99;
-	min-width: 700px;
+	height: 150%;
 }
 
-.footer ul li {
-	display: inline-block;
-	position: relative;
-	padding: 0; margin: 0;
-	width: calc(20% - 5px);
-	line-height: 60px;
-}
-
-.footer ul li a {
-	display: block;
-}
-
-
-.active {
-	padding: 3px 5px;
-	border-radius: 2px;
-	border: 1px solid #000;
-}
-
-.contact-container {
-	display: none;
-	opacity: 0;
+.stockimage {
 	position: absolute;
-	left: 0; top: 0;
-	width: 100%; height: calc(100% - 60px);
-	background: #FFF;
-	overflow: auto;
-}
-
-.email {
-	position: relative;
-	margin-top: 20%;
-	font-weight: 200;
-	font-size: 1.6em;
-	letter-spacing: 2px;
-}
-
-#email-form {
-}
-
-#email-form label {
-	font-size: .8em;
-	color: #777;
-	margin: 0 210px 3px 0;
-}
-
-.email-input {
+	top: 0; right: 0;
 	width: 200px;
-	height: 25px;
-	line-height: 25px;
-	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-	font-size: .8em;
-	padding: 0 0 0 2px;
-	margin: 2px 5px 0 0;
+	height: 400px;
+	background: url('/img/stock_photo.jpg') center center no-repeat;
+	background-size: cover;
 }
 
-.builtby {
+.centerpiece {
+	margin: 300px auto 30px;
+	width: 260px;
+	height: 200px;
+	background: url('/img/IMG_6604.png') center center no-repeat;
+	background-size: contain;
+}
+
+.egg {
 	position: absolute;
-	left: 0; bottom: 30px;
-	width: 100%;
+	top: 220px;
+	left: 20px; 
+	width: 25px;
+	height: 55px;
+	background: url('/img/smooshed_egg.png') center center no-repeat;
+	background-size: contain;	
+}
+@media screen and (min-width: 769px) {
+    .egg {
+    	left: 20%;
+    }
+}
+
+.links-list {
 	text-align: center;
-	font-size: .7em;
-	color: #777;
-	font-style: italic;
+	margin: 30px 0;
+	font-size: .75em;
 }
 
-.builtby a {
-	color: #777;
+.projects {
+	margin-top: 100px;
 }
 
-.builtby a:hover {
-	color: #00F;
+.links-list li {
+	margin: 2px 0;
 }
+
+.leaf-bullet {
+	display: inline-block;
+	width: 9px;
+	height: 13px;
+	margin: 0 2px -1px 0;
+	background: url('/img/SMALL_FICUS_LEAF.png') center center no-repeat;
+	background-size: cover;
+}
+
+.links-list .push-left {
+	margin-left: -5px;
+}
+
+.footer-leaf {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	height: 100px;
+	background: url('/img/grey_leaf.png') center center no-repeat;
+	/*background-size: cover;*/
+}
+
+.red {background: red;}
+.blue {background: blue;}
+.green {background: green;}

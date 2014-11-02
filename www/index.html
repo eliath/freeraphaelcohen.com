@@ -16,72 +16,44 @@
         <script src="/js/main.js"></script>
     </head>
     <body>
-        <div id="main" class="main-container center">
-        	<!-- The image -->
-        	<div class="centerpiece"></div>
-        	
-        	<!-- The name -->
-        	<h1 class="nametag">
-        		Raphael Cohen
-        	</h1>
-
-        	<!-- Some projects -->
-            <ul class="project-list">
-        	    <li>
-        	    	<a href="/projects/american_ikebana">American Ikebana</a>
-        	    </li>
-        	    <li>
-        	    	<a href="/projects/free">Free</a>
-        	    </li>
-                <li>
-                    <a href="#" onclick="controller.oops('Finding Raphael soon!')">Finding Raphael</a>
-                </li>
-        	    <!-- <li>
-        	    	<a href="#">Speaking Directly</a>
-        	    </li>
-        	    <li>
-        	    	<a href="#">Diary</a>
-        	    </li> -->
-        	</ul>
+        
+        <div class="block150">
+            <div class="stockimage"></div>
         </div>
         
-        <div id="contact" class="contact-container center">
-            <a href="mailto:freeraphael8@gmail.com">
-                <h2 class="email">freeraphael8@gmail.com</h2>
-            </a>
-            <!--
-            * * * * * * * * * * * * * * * * * * * * * * * 
-            <form id="email-form">
-                <label for="email">For updates:</label><br>
-                <input class="email-input" type="text" name="email" placeholder="email">
-                <input type="submit" value="Sign Up">
-            </form>
-            * * * * * * * * * * * * * * * * * * * * * * * 
-            -->
-            <p class="builtby">
-                &#169; 2014  |  Site by <a href="http://eliasmartinezcohen.com/" target="_blank">Elías Martínez Cohen</a>
-            </p>
-        </div>
+        <div class="block150">
+            <div class="centerpiece"></div>
+            
+            <a href="/projects"><div class="egg"></div></a>
 
-        <footer class="footer">
-            <ul>
-                <li>
-                    <a href="/CV">CV</a>
-                </li>
-                <li>
-                    <a onclick="controller.toggleContact();"><span id="contact_button">Contact</span></a>
-                </li>
-                <li>
-                    <a href="http://juicysgallery.info/" target="_blank">Juicys Gallery</a>
-                </li>
-                <li>
-                    <a href="http://coorslight.bandcamp.com/" target="_blank">Coors Light</a>
-                </li>
-                <li>
-                    <a onclick="controller.oops('Ficus Interfaith R&amp;P\nComing Soon!')">Ficus Interfaith R&amp;P</a>
-                </li>
+            <ul class="links-list shows">
+                <li><a href="http://rkprojects.com/tagged/blues-away" target="_blank">
+                    http://rkprojects.com/tagged/blues-away
+                </a></li>
+                <li><a href="http://sophiajacob.com/index.php?/root/october-exhibitionmiaaiden-release-/" target="_blank">
+                    http://sophiajacob.com/index.php?/root/october-exhibitionmiaaiden-release-/
+                </a></li>
+                <li><a href="http://www.mattemagazine.org/post/47046685563/raphael-cohen" target="_blank">
+                    http://www.mattemagazine.org/post/47046685563/raphael-cohen
+                </a></li>
             </ul>
-        </footer>
+
+            <ul class="links-list projects">
+                <li><a href="http://juicysgallery.info/" target="_blank">
+                    The Sunbeam Gallery
+                </a></li>
+                <li class="push-left"><a href="http://ficusinterfaith.org/" target="_blank">
+                    <i class="leaf-bullet"></i>Ficus Interfaith R&amp;P
+                </a></li>
+                <li><a href="https://twitter.com/freeraphaelcohe" target="_blank">
+                    Poetry
+                </a></li>
+            </ul>
+
+        </div>
+        <div class="block150">
+            <a href="/contact"><div class="footer-leaf"></div></a>
+        </div>
 
         <script>
             $(function() {
