@@ -50,17 +50,25 @@ ul {
 .stockimage {
 	position: absolute;
 	top: 0; right: 0;
-	width: 200px;
-	height: 400px;
-	background: url('/img/stock_photo.jpg') center center no-repeat;
+	width: 300px;
+	height: 450px;
+	background: url('/img/stock_photo_sm.jpg') center center no-repeat;
 	background-size: cover;
 }
+
+.info-link {
+	position: absolute;
+	right: 5px;
+	top: 455px;
+	font-size: .75em;
+}
+
 
 .centerpiece {
 	margin: 300px auto 30px;
 	width: 260px;
 	height: 200px;
-	background: url('/img/IMG_6604.png') center center no-repeat;
+	background: url('/img/IMG_6604.jpg') center center no-repeat;
 	background-size: contain;
 }
 
@@ -83,10 +91,6 @@ ul {
 	text-align: center;
 	margin: 30px 0;
 	font-size: .75em;
-}
-
-.projects {
-	margin-top: 100px;
 }
 
 .links-list li {

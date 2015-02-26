@@ -5,6 +5,18 @@ html, body {
 	width: 100%; height: 100%;
 	background: #FFF;
 	overflow-x: auto;
+
+	/*
+		little hack to prevent 
+		users from selecting images when
+		going thru slideshow.
+	 */
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* 
@@ -35,23 +47,30 @@ html, body {
 }
 
 
+.back-btn {
+	display: block;
+	position: fixed;
+	width: 50px; height: 50px;
+	top: 25px; left: 25px;
+	font-size: .8em;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	z-index: 5;
+}
 
 /* 
    Image
    ========================================================================== */
-.image-wrap {
+.media-wrap {
 	position: absolute;
 	width: 100%;
 	top: 50%;
-	/*------- Trick for vertical centering done by JQuery -------*/
-	/*height: 800px;*/
-	/*margin-top: -400px;*/
 }
 
-.image-wrap .image {
-	width: 100%;
-	height: 100%;
-	background-size: contain;
+.media-wrap .image, .media-wrap .video {
+	width: 800px;
+	height: 600px;
 }
 
 .caption {
@@ -64,4 +83,28 @@ html, body {
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	text-align: center;
 	margin-top: 10px;
+}
+
+/*
+Show this on Error
+   ========================================================================== */
+.big-error {
+	width: 100%; height: 100%;
+	padding: 50px; margin: 0;
+	background: red;
+	color: white; 
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+/*
+Little Hack to prevent text selection
+   ========================================================================== */
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
