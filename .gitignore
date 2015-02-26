@@ -9,6 +9,10 @@
 **/*.m4a
 **/*.pdf
 **/*.png
+**/*.gif
 **/*.jpg
 **/*.jpeg
 **/*.ico
+**/*.svg
+**/*.rtf
+**/*.pages
