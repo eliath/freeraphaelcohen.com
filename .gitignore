@@ -3,8 +3,7 @@
 /*.sublime-project
 /*.sublime-workspace
 /designs
-/www/img
-/www/projects/**/img
+
 **/*.mov
 **/*.mp4
 **/*.m4a
@@ -12,8 +11,4 @@
 **/*.png
 **/*.jpg
 **/*.jpeg
-
-
-
-site mock up.png
-freeraphael mock2.psd
+**/*.ico
