@@ -2,10 +2,17 @@
 **/.DS_Store
 /*.sublime-project
 /*.sublime-workspace
-/*.psd
-/*.sketch
-/*.png
-/www/projects/**/img/
-/www/img/
+/designs
+
+/www/img
+
+/www/projects/**/img
+/www/projects/**/*.mov
+/www/projects/**/*.mp4
+/www/projects/**/*.m4a
+
+
+
+
 site mock up.png
 freeraphael mock2.psd
